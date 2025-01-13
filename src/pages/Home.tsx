@@ -1,3 +1,8 @@
-export function Home() {
-    return <h2>Home</h2>;
-}
+import React from "react";
+import Hero from "../components/Hero";
+
+const Home: React.FC = () => {
+    return <Hero />;
+};
+
+export default Home;

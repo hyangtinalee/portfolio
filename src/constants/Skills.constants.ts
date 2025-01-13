@@ -1,0 +1,17 @@
+export const skills = [
+    { skill: "CSS", image: "/portfolio/images/css-3.png" },
+    { skill: "Figma", image: "/portfolio/images/figma.png" },
+    { skill: "GitHub", image: "/portfolio/images/github.png" },
+    { skill: "HTML", image: "/portfolio/images/html-5.png" },
+    { skill: "JavaScript", image: "/portfolio/images/js.png" },
+    { skill: "jQuery", image: "/portfolio/images/jQuery.png" },
+    { skill: "Node.js", image: "/portfolio/images/nodejs.svg" },
+    { skill: "php", image: "/portfolio/images/php.png" },
+    { skill: "React", image: "/portfolio/images/react.png" },
+    { skill: "Sass", image: "/portfolio/images/sass.svg" },
+    { skill: "Sketch", image: "/portfolio/images/sketch.png" },
+    { skill: "SQL", image: "/portfolio/images/sql-server.png" },
+    { skill: "Tailwind", image: "/portfolio/images/tailwind.svg" },
+    { skill: "Typescript", image: "/portfolio/images/ts.svg" },
+    { skill: "Wordpress", image: "/portfolio/images/wordpress.png" },
+];
