@@ -6,7 +6,6 @@ interface ExperienceCardProps {
     title: string;
     duration: string;
     location: string;
-    description: string;
 }
 
 const ExperienceCard: React.FC<ExperienceCardProps> = ({
@@ -15,7 +14,6 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
     title,
     duration,
     location,
-    description,
 }) => {
     return (
         <li className="border border-indigo-500 rounded-xl shadow-md shadow-indigo-500/30 bg-indigo-100/50 p-6 lg:p-8">
@@ -34,9 +32,6 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
                     </h4>
                     <p className="text-slate-700 text-base">{duration}</p>
                     <p className="text-slate-700 text-base">{location}</p>
-                    <p className="text-slate-700 text-base mt-4">
-                        {description}
-                    </p>
                 </div>
             </div>
         </li>
